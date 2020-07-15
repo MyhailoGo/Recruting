@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 19px;
+	font-family: Helvetica;
+}
+
+.container {
+	box-sizing: border-box;
+	margin: 0 5px;
+	padding: 0 20px;
+}
+
+.header {
+	width: 100%;
+}
+.main {
+	margin-top: 15px: 
+}
+
+.company-description{
+	margin: 15px 0;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+
+.text-vacancy {
+	padding: 5px 0;
+	display: block;
+}
+
+.requirements-list {
+	padding: 0 30px;
+}
+
+.requirements-list li{
+	margin: 10px 0;
+}
+
+.footer {
+	font-size: 14px;
+}
+
+
+@media (min-width: 1200px) {
+	.container {
+	width: 1020px;
+	}
+}
+
+@media (min-width: 992px){
+	.container {
+    width: 980px;
+	}
+}
+
+@media (min-width: 768px){
+	.container {
+    width: 760px;
+    margin: 0 auto;
+	}
+
+}
+
